@@ -28,6 +28,11 @@ pipeline {
             echo 'Smoke Tests Executed'
           }
         }
+        stage('Performance Tests') {
+          steps {
+            echo 'Performance Tests Executed'
+          }
+        }
       }
     }
     stage('Confirmation') {
