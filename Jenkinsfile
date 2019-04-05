@@ -21,6 +21,7 @@ pipeline {
         stage('Integration Tests') {
           steps {
             echo 'Integration Tests Executed'
+            echo 'More Integration Tests Executed'
           }
         }
         stage('Smoke Tests') {
